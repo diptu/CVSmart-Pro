@@ -18,20 +18,19 @@ Modern resume intelligence platform that generates CVs, evaluates ATS scores, an
 
 ---
 
-##🏗️ Table of Contents
-- Overview
-- Features
-- Tech Stack
-- Architecture
-- AI Microservices
-- Background Jobs
-- Analytics Dashboard
-- Security
-- License
+## 📖 Table of Contents
 
+1.  [✨ Overview](#-overview)
+2.  [🔑 Core Features](#-core-features)
+3.  [🏗️ System Architecture](#-system-architecture)
+4.  [🧠 AI & ML Microservices](#-ai--ml-microservices)
+5.  [🛠️ Tech Stack Deep Dive](#-tech-stack-deep-dive)
+6.  [⚙️ Background Processing & Analytics](#-background-processing--analytics)
+7.  [🔒 Security & Compliance](#-security--compliance)
+8.  [📜 License](#-license)
 ---
 
-#✨ Overview
+✨ Overview
 
 CVSmart Pro is a full-featured resume optimization SaaS built with the MERN stack and Python AI microservices.
 
@@ -48,7 +47,7 @@ This project demonstrates production-grade architecture, microservices, AI integ
 
 ---
 
-# 🔑Features
+🔑 Features
 
 ### 1. AI-Powered CV Builder
 - Create and edit multiple CVs
@@ -88,8 +87,7 @@ This project demonstrates production-grade architecture, microservices, AI integ
 - Dark/Light theme
 
 ---
-
-#🚀 Tech Stack
+🛠️ Tech Stack
 
 ### Frontend
 - React.js (or Next.js)
@@ -116,8 +114,7 @@ This project demonstrates production-grade architecture, microservices, AI integ
 - AWS / Azure / GCP deployment
 
 ---
-
-# Architecture
+🏗️ Architecture
 
 ```yaml
                   Nextjs Frontend
@@ -136,7 +133,7 @@ This project demonstrates production-grade architecture, microservices, AI integ
                            FastAPI LLM + ATS Scoring Engines
 
 ```
-📜 AI Microservices
+🧠 AI Microservices
 1. ATS Scoring Engine
 
 - NLP extraction
@@ -157,7 +154,7 @@ This project demonstrates production-grade architecture, microservices, AI integ
 
 - Section-by-section improvements
 
-## 📜 Background Jobs:
+⚙️ Background Jobs:
 
 | Job Name          | Schedule       | Description                       |
 | ----------------- | -------------- | --------------------------------- |
@@ -180,7 +177,7 @@ This project demonstrates production-grade architecture, microservices, AI integ
 
 - Uses Chart.js or Plotly.js.
 
-### Security
+🔒 Security
 
 - JWT authentication
 
@@ -194,6 +191,6 @@ This project demonstrates production-grade architecture, microservices, AI integ
 
 - Secure cookies (optional)
 
-License
+📜 License
 
-MIT License.
+This project is licensed under the MIT License.
